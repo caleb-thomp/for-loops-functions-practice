@@ -6,7 +6,13 @@
 
 export function getClientWithLeastPositiveBalance(array) {
   // Your code goes here...
-  
+  let validAccounts = array.filter(account => account.balance > 0);
+
+  if (validAccounts.length === 0) {
+    return [];
+  }
+
+  return [validAccounts.sort((a, b) => a.balance - b.balance)[0]];
 }
 
 // === TEST YOURSELF ===

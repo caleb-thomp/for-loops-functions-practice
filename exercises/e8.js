@@ -6,6 +6,9 @@
 
 export function getClientWithGreatestBalance(array) {
   // Your code goes here...
+  let maxBalance = array.sort((a, b) => b.balance - a.balance)[0];
+
+  return maxBalance.balance > 0 ? [maxBalance] : [];
 
 }
 
