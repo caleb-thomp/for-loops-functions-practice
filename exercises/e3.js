@@ -10,12 +10,12 @@
 
 export function getAverage(array) {
   // Your code goes here...
-  var sum = 0;
+  let sum = 0;
   for (let num of array) {
     sum += num;
   }
 
-  var average = sum / array.length;
+  let average = sum / array.length;
   return average;
 }
 
@@ -29,10 +29,10 @@ export function getAverage(array) {
 
 export function getStringSum(str) {
   // Your code goes here...
-  var sum = 0;
+  let sum = 0;
 
   for (let ch of str) {
-    var num = parseInt(ch);
+    let num = parseInt(ch);
 
     if (!isNaN(num)) {
       sum += num;

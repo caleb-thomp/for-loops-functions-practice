@@ -7,7 +7,7 @@
 export function joinToString(array, separator) {
   let newString = "";
 
-  for(var i in array) {
+  for(let i in array) {
     newString += array[i];
     if(i < array.length - 1){
       newString += separator;

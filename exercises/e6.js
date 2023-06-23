@@ -5,7 +5,7 @@
 
 export function getClientWithNoMoney(array) {
   // Your code goes here...
-  var names = [];
+  let names = [];
 
   for (let info of array) {
     if (info.balance === 0) {

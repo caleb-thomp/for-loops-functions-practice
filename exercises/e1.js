@@ -5,8 +5,8 @@
 
 export function getFirstTenNumbers() {
   // Your code goes here...
-  var numbers = [];
-  for (var i = 1; i <= 10; i++) {
+  let numbers = [];
+  for (let i = 1; i <= 10; i++) {
     numbers.push(i);
   }
   

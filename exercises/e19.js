@@ -6,9 +6,9 @@
 
 export function reverseArray(array) {
   // Your code goes here...
-  var reversed = [];
+  let reversed = [];
 
-  for (var i = array.length - 1; i >= 0; i--) {
+  for (let i = array.length - 1; i >= 0; i--) {
     reversed.push(array[i]);
   }
 
