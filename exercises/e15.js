@@ -6,7 +6,17 @@
 
 export function concatArrays(arr1, arr2) {
   // Your code goes here...
+  let allArray = [];
 
+  for(let ch of arr1){
+    allArray.push(ch);
+  }
+
+  for(let ch of arr2){
+    allArray.push(ch);
+  }
+
+  return allArray;
 }
 
 
